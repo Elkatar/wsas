@@ -7,7 +7,6 @@ type: "GET",
     success: function (data) {
 
 var json = data.feed.entry;
-
    var text = "";
    
 for (let i = 0; i < json.length; i++) {
